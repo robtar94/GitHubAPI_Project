@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/users/JohnDoe/repos"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"status\":\"404\",\"message\":\"Specified user has been not found\"}"
+  }
+}
